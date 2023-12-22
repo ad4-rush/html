@@ -4,37 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Cup 2023</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file for styling -->
     <style>
         /* Inline CSS for the navigation bar */
         header {
-            background-color: #0d6efd; /* Indian cricket team blue */
+            /* background-color: #0d6efd; Indian cricket team blue */
+            background-color: white;
+            /* border-radius: 20px;
+             */
+            border-radius: 0px 0 0 0;
+            text-align: center;
         }
 
         nav ul {
             list-style-type: none;
-            margin: 0;
-            padding: 0;
+            margin: -2px;;
+            color: #FF671F;
+            padding: 10;
         }
 
         nav ul li {
             display: inline;
-            margin-right: 20px;
+            margin-right: 100px;
+            color: #FF671F;
         }
 
         nav ul li a {
             text-decoration: none;
-            color: white; /* Text color for links */
+            color: #FF671F;
+            /* color: white; Text color for links */
         }
         /* In your external CSS file (styles.css) */
         nav.upper {
-            background-color: #052c65; /* Indian cricket team blue */
+            background-color: #FF671F;
+            border-radius: 20px;
+
+            /* background-color: #052c65; Indian cricket team blue */
             color: white;
-            padding: 10px 0; /* Add some padding for spacing */
+            padding: 12px 0; /* Add some padding for spacing */
             text-align: center;
         }
 
-        nav.upper ul {
+        /* nav.upper ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
@@ -48,26 +59,33 @@
         nav.upper ul li a {
             text-decoration: none;
             color: white;
-        }
+        } 
 
         nav.upper ul li a:hover {
-            text-decoration: underline; /* Underline on hover */
-        }
+            text-decoration: underline; 
+        }  */
 
     </style>
 </head>
 <body>
     <header>
-        <nav class="upper">
-            <img src="logo.jpg" alt="logo" width=70 height=70>
+        <nav class="upper" >
+            <h1> World Cup 2023</h1>
+            <!-- <img src="transparent.png" alt="logo" width=70 height=70> -->
         </nav>
-        <h1> World Cup 2023</h1>
+        <nav class="upper" style="background-color: white; padding: 3px;">
+            <img src="logo.jpg" alt="logo" width=80 height=80>
+        </nav>
+        <nav class="upper" style=" background-color: #046A38;">
+            <h1 style="color: #046A38;"> Fuck you</h1>
+            <!-- <img src="transparent.png" alt="logo" width=70 height=70> -->
+        </nav>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Fixtures</a></li>
                 <li><a href="#">Teams</a></li>
-                <li><a href="#">News</a></li>
+                <li class="red"><a href="#" class="red">News</a></li>
                 <li><a href="#">Tickets</a></li>
             </ul>
         </nav>
