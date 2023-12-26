@@ -1,7 +1,7 @@
 .red{
     color:crimson
 }
-
+ 
 nav.upper h1 h2{
     color:black
 }
@@ -10,6 +10,7 @@ header {
     background-color: white;
     /* border-radius: 20px;
      */
+     font-family:monospace;
     border-radius: 0px 0 0 0;
     text-align: center;
 }
@@ -19,6 +20,7 @@ nav ul {
     margin: -2px;;
     color: #FF671F;
     padding: 10;
+
 }
 
 nav ul li {
@@ -30,15 +32,172 @@ nav ul li {
 nav ul li a {
     text-decoration:underline;
     color: #2c1c14;
+    font:700;
+    font-size:1rem;
     /* color: white; Text color for links */
 }
 /* In your external CSS file (styles.css) */
 nav.upper {
     background-color: #FF671F;
     border-radius: 20px;
-
     /* background-color: #052c65; Indian cricket team blue */
     color: white;
     padding: 12px 0; /* Add some padding for spacing */
     text-align: center;
+}
+.some#some{
+    background-color: black !important;
+    background-color: green;
+    color: aliceblue;
+    text-align: center;
+    /* padding: 10px; */
+}
+div > img{
+    border: 7px solid ;
+    /* border-width: 20000px; */
+    border-color: aqua;
+    margin : 40px 10px 0px 10px;
+    /* padding : 30px 30px 0px 30px; */
+    /* border-color:#FF671F; */
+}
+.box{
+    width: 900px;
+    height: 150px;
+    border-radius: 50px;
+    font-size: 5rem;
+    text-align: center;
+}
+.green{
+    background-color: #046A38;
+   
+}
+.red{
+    background-color: #FF671F;
+    /* Position */
+    position: relative;
+    /* top:-50px; */
+
+}
+.white{
+    height:100px;
+}
+.box p{
+    position: relative;
+    bottom: -25px;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border: 10px #06038D solid;
+    border-color: #06038D;
+    border-radius: 50%;
+    /* Position */
+    position: relative;
+    left: 355px;
+    top: 5px;
+}
+.strippp{
+    width: 3px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 52px solid #06038D;
+    position: absolute;
+    z-index: -100;
+}
+.strip{
+    width: 3px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 20.6px solid#06038D ;
+    position: absolute;
+}
+.small{
+    width: 10px;
+    height: 10px;
+    border: 5px #06038D solid;
+    border-color: #06038D;
+    border-radius: 50%;
+    /* Position */
+    position: relative;
+    left: 65px;
+    background-color: #06038D;
+    top: 65px;
+}
+.vstripe00{
+    left:68.5px;
+    top: 0px
+}
+.vstripe01{
+    left:67.5px;
+    top: 50px
+}
+.vstripe450{
+    transform: rotate(45deg);
+    left:107.5px;
+    top: 12.5px;
+}
+.vstripe451{
+    transform: rotate(45deg);
+    left:82.5px;
+    top: 52.5px
+}
+.vstripe900{
+    transform: rotate(90deg);
+    left:120px;
+    top: 51.5px;
+}
+.vstripe901{
+    transform: rotate(90deg);
+    left: 85px;
+    top: 67.5px;
+}
+.vstripe1350{
+    transform: rotate(135deg);
+    left:105px;
+    top: 88.5px;
+}
+.vstripe1351{
+    transform: rotate(135deg);
+    left:80px;
+    top:80px
+}
+.vstripe1800{
+    transform: rotate(180deg);
+    left:68.5px;
+    top: 100px
+}
+.vstripe1801{
+    transform: rotate(180deg);
+    left:67.5px;
+    top: 82.5px
+}
+.vstripe2250{
+    transform: rotate(225deg);
+    left:34px;
+    top: 86px;
+}
+.vstripe2251{
+    transform: rotate(225deg);
+    left:57.5px;
+    top: 77.5px
+}
+.vstripe2700{
+    transform: rotate(270deg);
+    left:17.5px;
+    top: 51.5px;
+}
+.vstripe2701{
+    transform: rotate(270deg);
+    left:52.5px;
+    top: 67.5px
+}
+.vstripe3150{
+    transform: rotate(315deg);
+    left: 31.5px;
+    top: 15px;
+}
+.vstripe3151{
+    transform: rotate(315deg);
+    left:55px;
+    top:55px
 }
